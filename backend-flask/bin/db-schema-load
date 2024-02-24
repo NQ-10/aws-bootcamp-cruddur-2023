@@ -1,0 +1,9 @@
+#! /usr/bin/bash
+
+echo $(realpath .)
+
+schema_path="$(realpath .)/db/schema.sql"
+
+echo "db-schema-load"
+
+psql $CONNECTION_URL cruddur < $schema_path
