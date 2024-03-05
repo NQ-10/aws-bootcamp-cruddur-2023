@@ -9,6 +9,16 @@
             "username": "postgres",
             "password": "password",
             "database": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "cruddur",
+            "database": "cruddur",
+            "username": "postgres",
+            "password": "password"
         }
     ]
 }
